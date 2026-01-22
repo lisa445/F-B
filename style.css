@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'OpenSansR';
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSansB';
+    src: url('fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'OpenSansSB';
+    src: url('fonts/OpenSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'CormorantB';
+    src: url('fonts/Cormorant-Bold.ttf');
+}
+@font-face {
+    font-family: 'CormorantBI';
+    src: url('fonts/Cormorant-BoldItalic.ttf');
+}
+:root{
+    --background: #1D2F30;
+    --primary_green: #BAE249;
+    --background_shade: #0B1919;
+    --grey: #899D9D;
+    --white: #FFFFFF;
+    --green_text: #506829;
+}
